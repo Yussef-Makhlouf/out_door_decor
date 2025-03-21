@@ -1227,7 +1227,7 @@ body {
 .hero-header {
     background: linear-gradient(rgba(15, 62, 44, 0.9), rgba(15, 62, 44, 0.9)), url(../img/image/IMG-20250319-WA0001.jpg) center center no-repeat;
     background-size: cover;
-    /* padding: 200px 0; */
+    padding: 200px 0;
 }
 
 .hero-header h1 {
