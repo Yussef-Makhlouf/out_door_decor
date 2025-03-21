@@ -1,4 +1,10 @@
 /*** Gallery ***/
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .gallery-item {
     position: relative;
     overflow: hidden;
@@ -342,6 +348,37 @@ nav a:hover::after {
         margin: 0.25rem 0 !important;
         border-radius: 0.25rem;
     }
+}
+
+.navbar {
+  padding: 10px 20px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.navbar-nav {
+  gap: 15px;
+}
+
+.nav-item {
+  padding: 8px 10px;
+}
+
+.nav-link {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    gap: 10px;
+  }
+  .nav-item {
+    padding: 6px 8px;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
 }
 
 /*** Carousel Hero Header Start ***/
@@ -1190,7 +1227,7 @@ body {
 .hero-header {
     background: linear-gradient(rgba(15, 62, 44, 0.9), rgba(15, 62, 44, 0.9)), url(../img/image/IMG-20250319-WA0001.jpg) center center no-repeat;
     background-size: cover;
-    padding: 200px 0;
+    /* padding: 200px 0; */
 }
 
 .hero-header h1 {

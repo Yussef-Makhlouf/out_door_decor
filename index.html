@@ -38,21 +38,15 @@
                 --accent: #B4D52A;
                 --dark: #0B5536;
                 --light: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+            overflow-y: auto;
             }
             
-            body {
-                font-family: 'Tajawal', sans-serif;
-                direction: rtl;
-                text-align: right;
-                width: 100%;
-                height: 100%;
-                overflow-x: hidden;
-                overflow-y: auto;
-                margin: 0;
-                padding: 0;
-                max-width: 100%;
-            }
-            
+   
             .text-primary {
                 color: var(--accent) !important;
             }
@@ -128,56 +122,56 @@
         <!-- Spinner End -->
 
 <!-- Navbar Start -->
-<nav class="bg-gradient-to-r from-[#0F3E2C] to-[#053340] border-gray-200 fixed w-full z-50 ">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
-        <!-- الشعار -->
-        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse hover:scale-105 transition-transform duration-300">
-            <img src="img/image/logo.png" class="h-12 px-3" alt="Logo" />
-            <span class="self-center text-2xl font-bold whitespace-nowrap text-white hover:text-white transition-colors duration-300">ابو يزن</span>
-        </a>
-
-        <!-- Mobile Menu Button -->
-        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden hover:bg-[#B4D52A] hover:text-white focus:outline-none focus:ring-2 focus:ring-[#B4D52A] transition-colors duration-300">
-            <span class="sr-only">Open main menu</span>
-            <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
-        </button>
-
-        <!-- عناصر التنقل -->
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col py-2 md:p-0 my-3 border border-gray-100 rounded-lg bg-gray-50/10 backdrop-blur-sm md:flex-row md:space-x-6 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent">
-                <li>
-                    <a href="#" class="block py-2 px-3 text-white hover:bg-[#B4D52A] hover:text-[#053340] rounded md:hover:bg-transparent md:hover:text-[#B4D52A] md:p-0 transition-all duration-300" aria-current="page">الرئيسية</a>
-                </li>
-                <li>
-                    <a href="#about" class="block py-2 px-3 text-white hover:bg-[#B4D52A] hover:text-[#053340] rounded md:hover:bg-transparent md:hover:text-[#B4D52A] md:p-0 transition-all duration-300">من نحن</a>
-                </li>
-                <li>
-                    <a href="#services" class="block py-2 px-3 text-white hover:bg-[#B4D52A] hover:text-[#053340] rounded md:hover:bg-transparent md:hover:text-[#B4D52A] md:p-0 transition-all duration-300">خدماتنا</a>
-                </li>
-                <li>
-                    <a href="#projects" class="block py-2 px-3 text-white hover:bg-[#B4D52A] hover:text-[#053340] rounded md:hover:bg-transparent md:hover:text-[#B4D52A] md:p-0 transition-all duration-300">مشاريعنا</a>
-                </li>
-                <li>
-                    <a href="#contact" class="block py-2 px-3 text-white hover:bg-[#B4D52A] hover:text-[#053340] rounded md:hover:bg-transparent md:hover:text-[#B4D52A] md:p-0 transition-all duration-300">تواصل معنا</a>
-                </li>
-            </ul>
-        </div>
+<nav class="bg-[#0F3E2C] border-gray-200  " style="background-color: #0F3E2C">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+      <!-- الشعار -->
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse hover:scale-105 transition-transform duration-300">
+        <img src="img/image/logo.png" class="h-12 px-3" alt="Logo"/>
+        <span class="self-center text-2xl font-bold whitespace-nowrap text-white hover:text-white transition-colors duration-300">ابو يزن</span>
+      </a>
+  
+      <!-- Mobile Menu Button -->
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center  w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden hover:bg-[#B4D52A] hover:text-white focus:outline-none focus:ring-2 focus:ring-[#B4D52A] transition-colors duration-300">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+      </button>
+  
+      <!-- عناصر التنقل -->
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col py-2 md:p-0 my-3 border border-gray-100 rounded-lg bg-gray-50/10 backdrop-blur-sm md:flex-row md:space-x-6 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent">
+          <li>
+            <a href="#" class="block py-2 px-3 text-white hover:bg-[#B4D52A] hover:text-[#053340] rounded md:hover:bg-transparent md:hover:text-[#B4D52A] md:p-0 transition-all duration-300" aria-current="page">الرئيسية</a>
+          </li>
+          <li>
+            <a href="#about" class="block py-2 px-3 text-white hover:bg-[#B4D52A] hover:text-[#053340] rounded md:hover:bg-transparent md:hover:text-[#B4D52A] md:p-0 transition-all duration-300">من نحن</a>
+          </li>
+          <li>
+            <a href="#services" class="block py-2 px-3 text-white hover:bg-[#B4D52A] hover:text-[#053340] rounded md:hover:bg-transparent md:hover:text-[#B4D52A] md:p-0 transition-all duration-300">خدماتنا</a>
+          </li>
+          <li>
+            <a href="#projects" class="block py-2 px-3 text-white hover:bg-[#B4D52A] hover:text-[#053340] rounded md:hover:bg-transparent md:hover:text-[#B4D52A] md:p-0 transition-all duration-300">مشاريعنا</a>
+          </li>
+          <li>
+            <a href="#contact" class="block py-2 px-3 text-white hover:bg-[#B4D52A] hover:text-[#053340] rounded md:hover:bg-transparent md:hover:text-[#B4D52A] md:p-0 transition-all duration-300">تواصل معنا</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</nav>
-<!-- Navbar End -->
-<script>
-    // إضافة تأثير التمرير لتغيير لون الشريط
+  </nav>
+  <!-- Navbar End -->
+  
+  <script>
     window.addEventListener('scroll', function() {
-        const navbar = document.querySelector('nav');
-        if(window.scrollY > 50) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
-        }
+      const navbar = document.querySelector('nav');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
     });
-</script>
+  </script>
 
 <!-- Hero Section Start -->
 <div class="container-fluid hero-header py-5 mb-5">
@@ -416,7 +410,7 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="position-relative">
-                            <img src="img/image/3.png" class="img-fluid w-100 lazy" alt="شلال خارجي">
+                            <img src="img/image/logo.png" class="img-fluid w-100 lazy" alt="شلال خارجي">
                             <div class="d-flex align-items-center justify-content-center rounded-circle position-absolute" style="width: 150px; height: 150px; top: 0; left: 0; background-color: rgba(180, 213, 42, 0.8);">
                                 <h1 class="text-white mb-0">25+</h1>
                                 <div class="text-white ms-3">
