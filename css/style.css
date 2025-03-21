@@ -1,7 +1,7 @@
 /*** Gallery ***/
 .container-fluid {
     width: 100%;
-    max-width: 100%;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -1225,6 +1225,10 @@ body {
 
 /*** Hero Section ***/
 .hero-header {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     background: linear-gradient(rgba(15, 62, 44, 0.9), rgba(15, 62, 44, 0.9)), url(../img/image/IMG-20250319-WA0001.jpg) center center no-repeat;
     background-size: cover;
     padding: 200px 0;
@@ -1680,9 +1684,11 @@ nav a:hover {
 }
 
 html, body {
-  height: 100%;
-  margin: 0;
   width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 #root {
